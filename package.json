@@ -1,0 +1,21 @@
+{
+  "name": "cypressautomation3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "recordDashBoardTest": "npm run test -- --record --key 20922108-5ad9-45f1-9c6f-5d40b4a9eb5e"
+  },
+  "author": "",
+  "license": "ISC",
+
+
+  "devDependencies": {
+    "cypress": "^12.11.0",
+    "cypress-iframe": "^1.0.1",
+    "mocha": "^10.1.0"
+  }
+}
