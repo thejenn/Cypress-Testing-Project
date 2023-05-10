@@ -11,11 +11,13 @@
   },
   "author": "",
   "license": "ISC",
-
-
   "devDependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2",
     "cypress": "^12.11.0",
     "cypress-iframe": "^1.0.1",
     "mocha": "^10.1.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^17.1.0"
   }
 }
